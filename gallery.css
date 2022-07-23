@@ -1,0 +1,75 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 5%; /* IE 10 */
+    flex: 50%;
+    padding: 0 5px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 500px;
+    width:900px;
+    border-radius: 50px;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(135, 24, 232);
+  }
+  
+  .btn.active {
+    background-color: rgb(192, 136, 194);
+    color: rgb(223, 7, 180);
+  }
+
+  h1{
+    
+    color: darkmagenta;
+    font-family: 'Rancho', cursive ;
+    font-size: 70px;
+  }
+  
+  p{
+
+    font-family:'Poppins',sans-serif;
+    font-size: 15px;
+    color: darkviolet;
+    font-weight: 100px;
+  }
